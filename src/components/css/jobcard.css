@@ -1,0 +1,84 @@
+
+.jobcard {
+  margin: 2vh 0;
+  padding: 0 2vw;
+}
+
+.jobcard .jobcard-details {
+  margin: 2vh 0;
+  padding: 2vh 1vw;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+.jobcard .jobcard-details .mainDetails {
+  margin: 10vh 0 0 0;
+}
+
+.jobcard .jobcard-details .detail-heading {
+  margin: 0 0 2vh 0 ;
+  padding: .2vh .2vw;
+  width: max-content;
+  font-weight: 600;
+  font-size: 1.2vw;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.jobcard .jobcard-details .other h5 {
+  padding: 0 0 1vh 0;
+  width: max-content;
+  border-bottom: 1px solid #fff;  
+}
+
+.jobcard .jobcard-details .other button {
+  padding: .5vh 1vw;
+  color: #fff;
+  font-size: 1vw;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  transition: .3s;
+}
+.jobcard .jobcard-details .other button:hover {
+  background-color: #00dfc4;
+  color: #000;
+}
+
+.jobcard .jobcard-details .jobcardSaveBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.jobcard input {
+  outline: none;
+  width: 15vw;
+  padding: 3px 5px;
+  background-color: #1d2b3a; 
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1vw;
+}
+
+.jobcard textarea {
+  padding: 3px 5px;
+  outline: none;
+  color: #fff;
+  background-color: #1d2b3a;
+  border: 1px solid #00dfc4; 
+  border-radius: 5px;
+  font-size: 1.1vw;
+}
+
+.jobcard select {
+  outline: none;
+  width: 7vw;
+  padding: 2px;
+  color: #fff;
+  background-color: #1d2b3a;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+}

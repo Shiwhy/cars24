@@ -1,0 +1,71 @@
+
+footer {
+  padding: 5vh 2vw;
+  background-color: rgba(240, 248, 255, 0.397);
+  display: flex;
+  gap: 10vw;
+}
+
+footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+footer .logo .icon {
+  font-size: 5vw;
+}
+
+footer .logo p {
+  font-size: 4vw;
+  font-weight: 1000;
+}
+
+footer .contact h2,
+footer .business h2 {
+  font-size: 1.5vw;
+  position: relative;
+}
+footer .contact h2::after {
+  content: '';
+  width: 7vw;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+footer .business h2::after {
+  content: '';
+  width: 12vw;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+footer .contact .details,
+footer .business .details {
+  margin: 1vh 0;
+  text-align: center;
+  display: flex;
+  gap: 1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+footer .business {
+  width: 15vw;
+}
+
+footer .contact .details span,
+footer .business .details span {
+  margin: .5vh 0 0 0;
+}
+
+footer .carSlowgan {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-weight: 800;
+}

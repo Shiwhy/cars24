@@ -1,0 +1,108 @@
+
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/bg3Blue.png);
+  background-size: cover;
+}
+
+.form form {
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  color: #000;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(6px);
+}
+
+.form form h3 {
+  margin: 0 0 3vh 0;
+  color: #fff;
+}
+
+.form form .inputBox {
+  margin: 10px;
+  position: relative;
+}
+
+.form form .inputBox input {
+  padding: .5vh 1vh;
+  height: 30px;
+  width: 15vw;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.form form .inputBox span {
+  padding: 0 .5vw;
+  background-color: #fff;
+  letter-spacing: .1vw;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  font-size: 1vw;
+  font-weight: 600;
+  pointer-events: none;
+  transform: translateX(-5px) translateY(-15px);
+}
+
+.form form > button {
+  padding: 1vh 1vw;
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: .02vw;
+  transition: .3s;
+}
+.form form > button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.form form > button:active {
+  scale: 0.8;
+}
+
+.form form > p {
+  margin-top: 2vh;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+
+@media (max-width: 600px) {
+
+  .form form {
+    width: 80vw;
+  }
+
+  .form form .inputBox input {
+    width: 50vw;
+  }
+
+  .form form .inputBox span {
+    font-size: 2.5vw;
+    transform: translateX(-7px) translateY(-5px);
+  }
+
+  .form form > button {
+    width: 20vw;
+    font-size: 2vw;
+  }
+
+  .form form > p {
+    font-weight: 600;
+    font-size: 2vw;
+  }
+
+}

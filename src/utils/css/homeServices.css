@@ -1,0 +1,22 @@
+
+.services {
+  padding: 5vh 5vw;
+  width: max-content;
+  text-align: center;
+  border-radius: 5px;
+  transition: .3s;
+}
+.services:hover {
+  background: #ffffff85;
+  box-shadow: 5px 5px 15px #fff;
+  color: #000;
+}
+
+.services .icon {
+  font-size: 3vw;
+}
+
+.services > p {
+  font-size: 2vw;
+  font-weight: 600;
+}

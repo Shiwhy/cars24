@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a548f1d8.css",
+    "main.js": "/static/js/main.84d8203d.js",
+    "static/js/787.25c4f668.chunk.js": "/static/js/787.25c4f668.chunk.js",
+    "static/media/bg3Blue.png": "/static/media/bg3Blue.6747006a3a5c10ac8076.png",
+    "static/media/homeMechanic2.jpg": "/static/media/homeMechanic2.1b326f91902b2b016bb4.jpg",
+    "static/media/homeMechanic.jpg": "/static/media/homeMechanic.f1e20d0ae8d5211107bf.jpg",
+    "static/media/background3.png": "/static/media/background3.7895b5061b9eb3260de9.png",
+    "static/media/logoCar.png": "/static/media/logoCar.fabdfa5835efba72f685.png",
+    "static/media/logoText.png": "/static/media/logoText.4f4140eb7a2bc9a67d50.png",
+    "index.html": "/index.html",
+    "main.a548f1d8.css.map": "/static/css/main.a548f1d8.css.map",
+    "main.84d8203d.js.map": "/static/js/main.84d8203d.js.map",
+    "787.25c4f668.chunk.js.map": "/static/js/787.25c4f668.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a548f1d8.css",
+    "static/js/main.84d8203d.js"
+  ]
+}

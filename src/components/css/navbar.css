@@ -1,0 +1,79 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vh 1vw;
+}
+
+nav .navbar-carLogo img {
+  height: 10vh;
+  width: 15vw;
+}
+
+nav .navbar-textLogo img {
+  height: 10vh;
+  width: 25vw;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+}
+
+nav .links li {
+  list-style: none;
+  margin: 0 1vw;
+}
+
+nav .links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3vw;
+  position: relative;
+}
+nav .links li a::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #fff;
+  transition: .5s;
+}
+nav .links li a:hover::after {
+  width: 100%;
+}
+nav .links li a::before {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  background-color: #fff;
+  top: -5px;
+  right: 0;
+  transition: 1s;
+}
+nav .links li a:hover::before {
+  width: 100%;
+}
+
+nav .links .menuBtn
+nav .closeMenuBtn { 
+  display: none;
+}
+
+nav .links .menuBtn,
+nav .closeMenuBtn {
+  margin: 0 2vw;
+  background: transparent;
+  border: transparent;
+  position: fixed;
+  right: 0;
+}
+
+nav .closeMenuBtn {
+  position: fixed;
+  top: 15px;
+}
